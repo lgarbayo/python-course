@@ -8,22 +8,23 @@ Actualmente enfocado en lo básico, con intención de ir ampliando temas de form
 ## 📂 Estructura
 
 - `basics/` 🟢 Conceptos fundamentales  
-  - `01_basic.py` → Variables y operaciones básicas  
-  - `01_booleans.py` → Booleanos y operadores lógicos  
-  - `01_flow_control.py` → Condicionales y bucles  
-  - `01_functions.py` → Definición y uso de funciones  
-  - `02_basic.py` → Continuación de básicos  
-  - `02_flow_control.py` → Control de flujo adicional  
-  - `03_basic.py` → Ejercicios básicos extra  
+  - `01_basic.py`  
+  - `01_booleans.py`  
+  - `01_flow_control.py`  
+  - `01_functions.py`  
+  - `02_basic.py`  
+  - `02_flow_control.py`  
+  - `03_basic.py`  
 
 - `intermediate/` 🟡 Conceptos intermedios  
-  - `01_dates.py` → Manejo de fechas y tiempos  
-  - `01_dictionaries.py` → Diccionarios  
-  - `01_regex.py` → Expresiones regulares  
-  - `02_dictionaries.py` → Diccionarios (nivel intermedio)  
-  - `02_regex.py` → Regex (nivel intermedio)  
+  - `01_dates.py`  
+  - `01_dictionaries.py`  
+  - `01_regex.py`  
+  - `02_dictionaries.py`  
+  - `02_regex.py`  
 
-- `README.md` 📄 Documentación del proyecto
+- `README.md` 📄 Documentación
+
 
 ---
 
