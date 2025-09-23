@@ -41,6 +41,21 @@ PYTHON-COURSE/
 
 ---
 
+## 📚 Inspiración  
+
+<div align="center">
+
+✨ Este curso está inspirado en el trabajo de grandes divulgadores:  
+
+[![midudev](https://img.shields.io/badge/midudev-%F0%9F%92%BB-blue?style=for-the-badge)](https://github.com/midudev)
+[![mouredev](https://img.shields.io/badge/mouredev-%F0%9F%9A%80-green?style=for-the-badge)](https://github.com/mouredev)
+
+</div>
+
+Se han combinado ideas y enfoques de ambos para crear un repositorio práctico y progresivo de fundamentos de Python.  
+
+---
+
 ## 📜 Licencia
 
-MIT License
+MIT License © 2025 Luis Garbayo Fernández
