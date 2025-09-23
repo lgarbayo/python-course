@@ -3,6 +3,10 @@
 Repositorio con ejemplos y ejercicios de fundamentos en **Python**.  
 Actualmente enfocado en lo básico, con intención de ir ampliando temas de forma progresiva.
 
+<p align="center">
+  <img src="assets/banner.png" alt="Python Course Banner" width="100%" />
+</p>
+
 ---
 
 ## 📂 Estructura
