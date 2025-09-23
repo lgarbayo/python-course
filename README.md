@@ -85,10 +85,10 @@ $ cd python-course
 
 Sigue estos pasos para preparar tu entorno de desarrollo en Python:
 
-# 1️⃣ Instala Visual Studio Code (VS Code) si aún no lo tienes
+### 1️⃣ Instala Visual Studio Code (VS Code) si aún no lo tienes
 Descárgalo desde: https://code.visualstudio.com
 
-# 2️⃣ Instala las extensiones recomendadas en VS Code
+### 2️⃣ Instala las extensiones recomendadas en VS Code
 - Python
 - Pylance
 - Python Debugger
