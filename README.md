@@ -9,6 +9,16 @@ Actualmente enfocado en lo básico, con intención de ir ampliando temas de form
 
 ---
 
+## ❓ Por qué seguir este curso
+
+- 🧩 **Aprende Python desde cero:** Ideal para quienes quieren iniciarse en programación paso a paso.
+- 🚀 **Curso práctico** con ejercicios para que puedas practicar lo aprendido.
+- 🔓 **Código abierto:** Accede a todo el proyecto, clónalo y experimenta con él.  
+
+> ⚠️ **Nota:** El curso está en desarrollo y se actualizará con nuevos contenidos regularmente.
+
+---
+
 ## 📂 Estructura
 
 - `basics/` 🟢 Conceptos fundamentales  
@@ -41,6 +51,47 @@ Actualmente enfocado en lo básico, con intención de ir ampliando temas de form
 - Diccionarios
 - Expresiones regulares
 - Ejercicios introductorios
+
+---
+
+## 🛠 Requisitos
+
+Para sacar el máximo provecho del curso necesitarás:
+
+- **Python 3.x**  
+- **Editor de código** (recomendado: Visual Studio Code)  
+- **Conexión a internet** para seguir las clases y ejemplos  
+
+---
+
+## 💻 Instalación rápida
+
+Abre tu terminal y ejecuta los siguientes comandos:
+
+```bash
+# Verifica la versión de Python
+$ python --version
+# En algunos sistemas puede ser:
+$ python3 --version
+
+# Clona el repositorio
+$ git clone https://github.com/lgarbayo/python-course
+$ cd python-course
+```
+
+---
+
+## 🖥 Configuración del entorno
+
+Sigue estos pasos para preparar tu entorno de desarrollo en Python:
+
+# 1️⃣ Instala Visual Studio Code (VS Code) si aún no lo tienes
+Descárgalo desde: https://code.visualstudio.com
+
+# 2️⃣ Instala las extensiones recomendadas en VS Code
+- Python
+- Pylance
+- Python Debugger
 
 ---
 
