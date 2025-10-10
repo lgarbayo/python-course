@@ -19,6 +19,11 @@ print(type(name))
 #f-string (literal de cadena de formato)
 print(f"Hola {my_name}, tengo {age -1 +1} años")
 
+# Ejercicios propuestos:
+#
+# Tienes 3 productos para comprar en un supermercado. Tu objetivo es imprimir: "huevos, bacon y morcilla"
+# Ejemplo: Huevos, Bacon, Morcilla
+
 mi_nombre_de_variable="lolo" #snake_case
 
 #NO TIENE CONSTANTES (UPPER_CASE)
