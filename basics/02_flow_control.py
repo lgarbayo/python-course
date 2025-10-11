@@ -60,6 +60,9 @@ while numero < 0:
   except:
     print("Lo que introduces debe ser un número")
 
+# ¿Por qué se usa try...except?
+# El bloque `try...except` se utiliza para MANEJAR ERRORES y evitar que el programa se detenga bruscamente si algo sale mal.
+
 print(f"El número que has introducido es {numero}")
 
 ############################################################
