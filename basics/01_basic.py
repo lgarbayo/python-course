@@ -55,20 +55,34 @@ operacion_c = len("Python") == 6
 
 # Casting de tipos
 print("Conversion de tipos")
-print(type(100)) #tipado fuerte, no realiza conversiones de tipos automaticas
+print(type(100)) # tipado fuerte, no realiza conversiones de tipos automaticas
 #print("100" + 2) :error porque el primero es str, entonces + actua como concat cadenas
-    #al reves el + seria de suma
+    # al reves el + seria de suma
 print(2 + int("100"))
 print("100" + str(2))
 print(float(3.16))
-print(int(3.1416)) #convierte en entero pierdes decimales
+print(int(3.1416)) # convierte en entero pierdes decimales
 print(bool(3))
-print(bool(0)) #unico q se convierte a false
+print(bool(0)) # unico q se convierte a false
 print(bool(1))
-print(bool("")) #unico str q se convierte a false porq es cadena vacia, con un espacio ya tiene algo
+print(bool("")) # unico str q se convierte a false porq es cadena vacia, con un espacio ya tiene algo
 print(bool(" "))
 print(bool("False"))
 
 print(round(3.5))
 print(round(2.5))
 #round justo en .5 en python redondea al PAR más cercano
+
+## Ejercicios propuesto:
+#
+# El siguiente código intenta sumar dos números, pero están guardados como cadenas de texto. Corrígelo para que la suma sea matemática.
+numero_str_1 = "150"
+numero_str_2 = "50"
+# TODO: Modifica la siguiente línea para que el resultado sea 200
+resultado_suma = numero_str_1 + numero_str_2
+print(f"El resultado de la suma es: {resultado_suma}")
+#
+# ¿Cuál será el resultado de las siguientes operaciones de redondeo?
+# Escribe tu predicción en el comentario.
+redondeo_a = round(4.5)
+redondeo_b = round(5.5)
