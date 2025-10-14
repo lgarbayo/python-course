@@ -1,0 +1,6 @@
+Bienvenido al Curso Básico de Python para Principiantes
+
+Descripción:
+Este curso está diseñado especialmente para aquellos que desean aprender 
+programación desde cero, sin necesidad de experiencia previa. Aprenderás 
+los conceptos fundamentales de Python de manera práctica y didáctica.

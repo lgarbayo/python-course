@@ -1,0 +1,11 @@
+{
+  "nombre": "Python Desde Cero",
+  "descripcion": "Curso básico de Python para principiantes sin experiencia previa",
+  "nivel": "Principiante",
+  "formato": "Online (GitHub)",
+  "precio": "Gratuito",
+  "instructor": {
+    "nombre": "Luis Garbayo",
+    "github": "github.com/lgarbayo"
+  }
+}
