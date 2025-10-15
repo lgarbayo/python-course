@@ -213,6 +213,27 @@ print(f"Vives en {pais}, {ciudad}")
 
 ---
 
+### Módulo 8: Ejercicios de Control de Flujo Avanzado
+**Archivo:** `03_flow_control.py`
+
+Aprenderás:
+- Condicionales avanzados (if/elif/else)
+- Bucles while y for
+- List comprehension
+- Operador ternario
+- Ejercicios prácticos complejos
+
+Incluye 7 ejercicios de dificultad progresiva:
+1. Calificador de notas
+2. Precio de entrada al cine
+3. Adivina el número
+4. Contador de vocales
+5. Números pares al cuadrado
+6. FizzBuzz
+7. Clasificador de números con ternario
+
+---
+
 ## 🏋️ Cómo trabajar con este nivel
 
 1. **Lee** el archivo `README.md` (este documento)
@@ -221,43 +242,16 @@ print(f"Vives en {pais}, {ciudad}")
 4. **Prueba** modificando los ejemplos
 5. **Completa** los ejercicios propuestos
 
-## ⚡ Ejercicios Propuestos
+## 📂 Estructura de Archivos de Soluciones ⚡
 
-### Ejercicio 1: Calculadora Simple
-Crea un programa que pida dos números y muestre suma, resta, multiplicación y división.
+En la carpeta `exercises_solutions/` encontrarás:
 
-```python
-# Tu código aquí
-```
+- **`basic_solutions.py`**: Soluciones a ejercicios de `01_basic.py`
+- **`booleans_solutions.py`**: Soluciones a ejercicios de `01_booleans.py`
+- **`flow_control_solutions.py`**: Soluciones a ejercicios de `03_flow_control.py` (7 ejercicios completos)
+- **`functions_solutions.py`**: Soluciones a ejercicios de `01_functions.py`
 
-**Solución esperada:**
-```
-Número 1: 10
-Número 2: 5
-Suma: 15
-Resta: 5
-Multiplicación: 50
-División: 2.0
-```
-
-### Ejercicio 2: Adivina el Número
-Crea un juego donde el usuario tenga que adivinar un número entre 1 y 100.
-
-**Pistas:**
-- Usa `import random` y `random.randint(1, 100)`
-- Usa un bucle `while`
-- Dale pistas si es mayor o menor
-
-### Ejercicio 3: Tabla de Multiplicar
-Crea una función que reciba un número y muestre su tabla de multiplicar.
-
-```python
-def tabla_multiplicar(numero):
-    # Tu código aquí
-    pass
-```
-
----
+**Recomendación:** Intenta resolver los ejercicios primero sin mirar las soluciones.
 
 ## 📖 Conceptos Clave Resumidos
 
@@ -291,6 +285,10 @@ def tabla_multiplicar(numero):
 - [ ] Entiendo bucles for y while
 - [ ] Puedo trabajar con input del usuario
 - [ ] He completado los 3 ejercicios propuestos
+
+---
+
+**Siguiente paso:** Cuando domines estos conceptos, continúa con la carpeta `intermediate/`
 
 ---
 
