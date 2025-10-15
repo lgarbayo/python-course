@@ -253,6 +253,8 @@ En la carpeta `exercises_solutions/` encontrarás:
 
 **Recomendación:** Intenta resolver los ejercicios primero sin mirar las soluciones.
 
+---
+
 ## 📖 Conceptos Clave Resumidos
 
 | Concepto | Explicación | Ejemplo |
@@ -288,10 +290,4 @@ En la carpeta `exercises_solutions/` encontrarás:
 
 ---
 
-**Siguiente paso:** Cuando domines estos conceptos, continúa con la carpeta `intermediate/`
-
----
-
-**Siguiente paso:** Cuando domines estos conceptos, continúa con la carpeta `intermediate/`
-
----
+**🚀 Siguiente paso:** Cuando domines estos conceptos, continúa con la carpeta `intermediate/`
