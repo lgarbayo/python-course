@@ -1,8 +1,10 @@
 from http.client import HTTPException
-from fastapi import FastAPI
+from fastapi import APIRouter
 from pydantic import BaseModel
 
-app = FastAPI()
+router = APIRouter(prefix="/users",
+                   tags=["users"],
+                   responses={404: {"message": "Not found"}})
 
 class User(BaseModel):
     id: int
@@ -11,19 +13,19 @@ class User(BaseModel):
 users_list = [User(id=1, name="John Doe"),
         User(id=2, name="Jane Doe")]
 
-@app.get("/usersjson")
+@router.get("/json")
 async def users_json():
     return [{"id": 1, "name": "John Doe"}, 
             {"id": 2, "name": "Jane Doe"},
             {"id": 3, "name": "Jim Beam"},
             {"id": 4, "name": "Jack Daniels"}]
 
-@app.get("/users")
+@router.get("/")
 async def users():
     return users_list
 
 #path
-@app.get("/user/{id}")
+@router.get("/{id}")
 async def search_user(id: int):
     users = filter(lambda user: user.id == id, users_list)
     try:
@@ -32,7 +34,7 @@ async def search_user(id: int):
         return {"error": "No user found"}
     
 #query
-@app.get("/user/")
+@router.get("/")
 async def user(id: int):
     users = filter(lambda user: user.id == id, users_list)
     try:
@@ -40,14 +42,14 @@ async def user(id: int):
     except:
         return {"error": "No user found"}
     
-@app.post("/user/")
+@router.post("/")
 async def user(user: User):
     if type(search_user(user.id)) == User:
         raise HTTPException(status_code=404, detail="User already exists")
-    users_list.append(user)
+    users_list.routerend(user)
     return user
 
-@app.put("/user/")
+@router.put("/")
 async def user(user: User):
     found = False
     for i, saved_user in enumerate(users_list):
@@ -58,7 +60,7 @@ async def user(user: User):
         return {"error": "User not found"}
     return user
 
-@app.delete("/user/{id}")
+@router.delete("/{id}")
 async def user(id: int):
     found = False
     for i, saved_user in enumerate(users_list):
